@@ -407,13 +407,11 @@ li a:hover {
 
 /* Project cards styling */
 .project-card {
-    background-color: white;
-    color: #000;
-    padding: 20px;
-    width: 30%;
-    margin: 20px 0;
-    box-shadow: 0 4px 17px rgb(255 255 255 / 10%);
-    
+   background-color: var(--card-bg);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 /* Links in project cards */
